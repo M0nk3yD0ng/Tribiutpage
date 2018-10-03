@@ -1,0 +1,113 @@
+body {
+    background-color: #E41E2B;
+  }
+  
+  #main {}
+  
+  #first {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #titlee {
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+  }
+  
+  #title {}
+  
+  #body {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 30px 5px #000000;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  #img-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  #imagee {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .tilt-left {
+    transform: rotate(-20deg);
+    box-shadow: 3px 3px 30px 3px #000000;
+    border-radius: 50%;
+  }
+  
+  .tilt-right {
+    transform: rotate(20deg);
+    box-shadow: 3px 3px 30px 3px #000000;
+    border-radius: 50%;
+  }
+  
+  #img-caption {
+    font-size: 55px;
+    text-decoration: underline;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  #tribute-info {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 200px 80px 200px;
+  }
+  
+  #sub-story {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 200px 80px 200px;
+  }
+  
+  .fun-facts {
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 200px 80px 200px;
+  }
+  
+  #footer {
+    bottom: 0%;
+    width: 100%;
+    background: rgba(208, 208, 208, 0.3);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #tribute-link {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  a:link {
+    color: #000000;
+    text-decoration: none
+  }
+  
+  .mid-role {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a6/Crushed_Coca_Cola_can_can.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 5px #000000;
+  }
+  
